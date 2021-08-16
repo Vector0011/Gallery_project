@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/projects/penup/app/src/main/res/drawable/rounded_corner.xml" value="0.24166666666666667" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/activity_album_media.xml" value="0.20520833333333333" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/activity_folder_media.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/activity_media_detail.xml" value="0.25" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/activity_view_media.xml" value="0.20520833333333333" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_album_fragment.xml" value="0.20520833333333333" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_album_item.xml" value="0.19114583333333332" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_album_media_item.xml" value="0.203125" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_folder_fragment.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_folder_media_item.xml" value="0.203125" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_grid_media_item.xml" value="0.19114583333333332" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_image_fragment.xml" value="0.19114583333333332" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_media_fragment.xml" value="0.20520833333333333" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_media_item.xml" value="0.19114583333333332" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_media_item_2.xml" value="0.33" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_share_fragment.xml" value="0.20520833333333333" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_story_fragment.xml" value="0.20520833333333333" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/layout_view_media_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/selected_menu.xml" value="0.21145833333333333" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/spinner_dialog.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/layout/view_media_item.xml" value="0.19114583333333332" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/actionbar_menu.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/album_fragment_actionbar_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/album_item_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/all_media_selected_menu.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/folder_fragment_actionbar_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/folder_item_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/folder_media_actionbar_menu.xml" value="0.25" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/main_actionbar_menu.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/media_fragment_actionbar_menu.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/selected_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/menu/view_media_actionbar_menu.xml" value="0.22552083333333334" />
+        <entry key="..\:/android/projects/penup/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.215625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="android.view.View"></import>
+        <import type="com.example.penup.models.MediaModel"></import>
+        <import type="com.example.penup.utils.DateTimeHelper"></import>
+        <variable
+            name="media"
+            type="com.example.penup.models.MediaModel" />
+        <variable
+            name="adapter"
+            type="com.example.penup.adapters.ListMediaAdapter" />
+        <variable
+            name="position"
+            type="Integer" />
+    </data>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_thumbnail"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="130dp"
+                android:src="@drawable/image_icon"
+                android:loadImage="@{media.path}"></ImageView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:background="#E91E63"
+                android:layout_margin="5dp"
+                android:visibility="@{media.type == MediaModel.TYPE_VIDEO?View.VISIBLE:View.GONE}">
+                <ImageView
+                    android:padding="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@color/play_icon"
+                    android:src="@drawable/play_icon2">
+                </ImageView>
+                <TextView
+                    android:id="@+id/tv_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="20dp"
+                    android:background="@color/play_icon"
+                    android:paddingEnd="5dp"
+                    android:text="@{media.type == MediaModel.TYPE_VIDEO?DateTimeHelper.getInstance().getDuration(media.getDuration()):`05:00`}"
+                    ></TextView>
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+        <View
+            android:id="@+id/selected_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/selected_overlay"
+            android:visibility="visible"
+            android:alpha="@{adapter.isSelected(position) ? 1 : 0}"/>
+    </androidx.cardview.widget.CardView>
+</layout>

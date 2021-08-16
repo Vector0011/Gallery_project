@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/dialog_label"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Select the album target:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:id="@+id/dialog_spinner"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@color/spinner"
+        android:layout_below="@id/dialog_label"
+        />
+
+    <Button
+        android:id="@+id/dialogOK"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/dialogCancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_spinner"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="Cancel" />
+</RelativeLayout>
